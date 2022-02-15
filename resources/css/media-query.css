@@ -1,0 +1,34 @@
+/*Big Tablets to small laptop screen */
+@media only screen and (max-width:1200px){
+    html,body{
+        font-size: 14px;
+    }
+    .about-para{
+        
+        margin-bottom: 20px;
+    }
+    .section-heading,
+    
+    .testimonial-heading,
+    .packages-heading,
+    .contact-heading{
+        margin-top: 90px;
+    }
+    
+}
+
+/*smaller Tablets to small tablets  */
+@media only screen and (max-width:1023px){
+    
+}
+
+/*larger phones to small tablets  */
+@media only screen and (max-width:767px){
+    
+
+}
+/*all phone sizes  */
+@media only screen and (max-width:479px){
+    
+
+}
