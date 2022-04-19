@@ -16,7 +16,7 @@
 }
 
 /*smaller Tablets to small tablets  */
-@media only screen and (max-width:1023px){
+@media only screen and (max-width:1024px){
     html,body{
         font-size: 12px;
     }
@@ -59,12 +59,77 @@ footer p{
 }
 
 /*larger phones to small tablets  */
-@media only screen and (max-width:767px){
-    
+@media only screen and (max-width:768px){
+    html,body{
+        font-size: 10px;
+    }
+    .header-box-text{
+        margin-bottom: 60px;
+    }
+    .about-header{
+        margin-bottom: 30px;
+    }
+    .section-heading,
+    .testimonial-heading,
+    .packages-heading,
+    .contact-heading{
+        margin-top: 60px;
+    }
+    .section-heading{
+        margin-bottom: 15px ;
+    }
+    .section-sub-heading::after{
+        margin: 15px auto 0 auto;
+    }
+    .testimonial-heading{
+        margin-bottom: 10px;
+    }
 
 }
 /*all phone sizes  */
-@media only screen and (max-width:479px){
-    
-
+@media only screen and (max-width:480px){
+    .laptop-img{
+       padding: 0;
+       margin: 0 auto;
+    }
+    .about-box:last-child{
+        text-align: center;
+     }
+     .about-box:first-child{
+        text-align: center;
+    }
+    .span_1_of_4 {
+        width: 45%;
+        margin:10px; 
+    }
+    .span_1_of_3 {
+        padding:0px 10%; 
+    }
+    .contact-form{
+        
+        width: 100%;
+    }
+    .contact-label{
+        padding-left: 0;
+    }
+    .footer-nav,.social-links{
+        float: none;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .work-portfolio li{
+          width: 50%; 
+    }
+    .testimonial-box{ 
+        margin-bottom: 30px;
+    }
+    blockquote:before{
+        left: -5px;
+        top: -45px;
+}
+    cite img{
+        margin-top: -10px;
+        margin-right: 10px;
+        margin-bottom: -5px;
+}
 }
