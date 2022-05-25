@@ -125,6 +125,30 @@ header{
     float: left;
 }
 
+.sticky-nav{
+    background-color: rgba(255, 255, 255, .8);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 2px 2px #efefef;
+}
+
+.sticky-nav .logo{
+    height: 60px;
+    margin-top: 3px;
+}
+.sticky-nav .main-nav{
+    margin-top: 18px;
+}
+
+.sticky-nav .main-nav li a:link,
+.sticky-nav .main-nav li a:visited{
+    color: #555 ;
+    padding: 5px 0px;
+}
+
+
 /*** ABOUT SECTION ***/
 
 .laptop-img{
@@ -477,4 +501,16 @@ footer p{
     text-align: center;
     margin-top: 50px;
     line-height: 1.5;
+}
+
+/** ANIMATE ON SCROLL **/
+.js--about-box{
+    opacity: 0;
+    animation-duration: 1s;
+}
+.js--about-box.animated__animated{
+    opacity: 1;
+}
+.js--service-box{
+    animation-duration: 1.4s;
 }
