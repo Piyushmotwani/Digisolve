@@ -286,8 +286,8 @@ header{
 /*** Testnimonials Section ***/
 
 .testimonials-section{
-    background-image: -webkit-linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.8)), url(resources/css/img/testimonial-background.jpg); /*http://www.cssdrive.com/cssautoprefixer/*/
-    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.8)), url(resources/css/img/testimonial-background.jpg);
+    background-image: -webkit-linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.8)), url(img/testimonial-background.jpg); /*http://www.cssdrive.com/cssautoprefixer/*/
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.8)), url(img/testimonial-background.jpg);
     background-size: cover;
     text-align: center;
     color: white;
